@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body bgcolor="violet">
+	<center>
+	<h1>Register</h1>
+	<form>
+		<label for="first">First Name:</label>
+		<input name="first" id="first" type="text" placeholder="John" required>
+		<label for="last">Last Name:</label>
+		<input name="last" id="last" type="text" placeholder="Smith" required>
+	</form>
+	<div>
+		<label for="male">Male</label>
+		<input name="gender" id="male" type="radio" value="male">
+		</label>
+		<label for="female">Female</label>
+		<input name="gender" id="female" type="radio" value="female">
+		</label>
+		<label for="others">Others</label>
+		<input name="gender" id="others" type="radio" value="others">
+		</label>
+	</div>
+	<div>
+		<label>Email:
+		<input type="Email" placeholder="your email" required>
+		</label>
+		<label>Password:
+		<input type="Password" placeholder="your password"  pattern=".{5,10}" required title="5 to 10 characters">
+		</label>
+	</div>
+	<div>
+		<label>Birthday:
+		<select name="Month">
+			<option>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+		</select>
+		<select name="Date">
+			<option>Date</option>
+			<option>01</option>
+			<option>02</option>
+			<option>03</option>
+		</select>
+		<select name="Year">
+			<option>Year</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+		</select>
+		</label>
+	</div>
+	<div>
+	I agree to the terms and conditions
+		<input type="checkbox" name="checkbox">
+	</div>
+	<a href="file:///C:/SIH/Web%20Development/startup.html"><button>Submit</button></li>
+	</center>
+</body>
+</html>
